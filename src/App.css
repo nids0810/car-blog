@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+.mainContainer {
+    width: 80%;
+    margin: 0 auto;
+    background: #eee;
+    padding-bottom: 5px;
+}
+.title {
+    text-align: center;
+    font-weight: 900;
+    color: #333;
+    padding-top: 20px;
+    margin: 0;
+}
+.subTitle {
+    text-align: center;
+    margin-top: 10px;
+    color: #333;
+}
+.subTitle h4 {
+    margin: 0;
+    font-weight: normal;
+}
+.postContainer {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fff;
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+}
+.ImageContainer {
+    width: 33%;
+}
+.ImageContainer div img {
+    max-width: 100%;
+}
+.descContainer {
+    margin-left: 20px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.descContainer span {
+    font-size: 1vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading {
+    font-size: 2vw;
+    font-weight: 700;
+}
+.model_type {
+    margin: 5px 0;
+    display: inline-block;
+    background: #555;
+    color: #fff;
+    padding: 3px 6px;
+    font-size: 0.8vw;
+}
+.model_rating {
+    margin-left: 20px;
+    background: #555;
+    color: #fff;
+    padding: 3px 6px;
+}
+.hide_button {
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 0.9vw;
+    color: blue;
+}
+.model_desc {
+    line-height: 20px;
+    font-size: 0.9vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+@media (max-width: 390px) {
+    .mainContainer {
+        width: 100%;
+    }
+    .subTitle {
+        font-size: 3.5vw;
+    }
+    .postContainer{
+        flex-direction: column;
+    }
+    .ImageContainer {
+        width: 100%;
+    }
+    .descContainer {
+        margin: 0;
+    }
+    .heading {
+        font-size: 5.5vw;
+    }    
+    .descContainer span.model_type, .descContainer span.model_rating {
+        font-size: 3vw;
+    }    
+    .descContainer span.model_price {
+        font-size: 4vw;
+    }
+    .hide_button, .model_desc {
+        font-size: 3.5vw;
+    }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
