@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cars-blog/static/css/main.99fd587b.css",
-    "main.js": "/cars-blog/static/js/main.a85d757e.js",
+    "main.js": "/cars-blog/static/js/main.0e8ba0c6.js",
     "static/js/787.54ff4264.chunk.js": "/cars-blog/static/js/787.54ff4264.chunk.js",
     "index.html": "/cars-blog/index.html",
     "main.99fd587b.css.map": "/cars-blog/static/css/main.99fd587b.css.map",
-    "main.a85d757e.js.map": "/cars-blog/static/js/main.a85d757e.js.map",
+    "main.0e8ba0c6.js.map": "/cars-blog/static/js/main.0e8ba0c6.js.map",
     "787.54ff4264.chunk.js.map": "/cars-blog/static/js/787.54ff4264.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.99fd587b.css",
-    "static/js/main.a85d757e.js"
+    "static/js/main.0e8ba0c6.js"
   ]
 }
