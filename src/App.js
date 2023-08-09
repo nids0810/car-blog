@@ -9,7 +9,7 @@ function App() {
   const [carData, setCarData] = useState([]);
 
   useEffect(()=> {
-    ReactGA.send({ hitType: "pageview", page: "/my-path", title: "Custom Title" });
+    ReactGA.send({ hitType: "pageview", page: "/", title: "Cars Blog" });
     client.getEntries()
     .then((response)=> {
       setCarData(response.items);
